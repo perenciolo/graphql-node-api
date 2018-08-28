@@ -27,7 +27,7 @@ const postQueries = `
 const postMutations = `
   createPost(input: PostInput!): Post
   updatePost(id: ID!, input: PostInput!): Post
-  delete(id: ID!, input: PostInput!): Boolean
+  deletePost(id: ID!, input: PostInput!): Boolean
 `;
 
 export { postTypes, postQueries, postMutations };
